@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ProfileViewController" id="BYZ-38-t0r" customClass="ProfileViewController" customModule="ProfileYujin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이름 : 정유진 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4g-Af-nH3" userLabel="이름 : 정유진">
+                                <rect key="frame" x="151" y="380" width="91.333333333333314" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MBTI  : ENFP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD9-Jv-dvb">
+                                <rect key="frame" x="147" y="413" width="99" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="취미 : 등산" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlK-ek-Awf">
+                                <rect key="frame" x="160" y="449" width="73" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Raq-iV-0oj">
+                                <rect key="frame" x="76" y="209" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmm-TE-yV1">
+                                <rect key="frame" x="160" y="559" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="Raq-iV-0oj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="7dJ-WV-SiH"/>
+                            <constraint firstItem="LlK-ek-Awf" firstAttribute="top" secondItem="uD9-Jv-dvb" secondAttribute="bottom" constant="15" id="So9-bq-SQo"/>
+                            <constraint firstItem="Raq-iV-0oj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="T5k-fe-LgM"/>
+                            <constraint firstItem="LlK-ek-Awf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XCj-SM-jAx"/>
+                            <constraint firstItem="uD9-Jv-dvb" firstAttribute="top" secondItem="X4g-Af-nH3" secondAttribute="bottom" constant="12" id="ZrF-Qd-raf"/>
+                            <constraint firstItem="X4g-Af-nH3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="j7x-vW-ioi"/>
+                            <constraint firstItem="uD9-Jv-dvb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mLT-kk-NiE"/>
+                            <constraint firstItem="X4g-Af-nH3" firstAttribute="top" secondItem="Raq-iV-0oj" secondAttribute="bottom" constant="43" id="qXP-fM-VPd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LlK-ek-Awf" secondAttribute="bottom" constant="348" id="u5p-js-fH0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Raq-iV-0oj" secondAttribute="trailing" constant="77" id="zDZ-L2-ChL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="MBTI" destination="uD9-Jv-dvb" id="XYA-qN-8eC"/>
+                        <outlet property="hobby" destination="LlK-ek-Awf" id="E5g-Ou-a6J"/>
+                        <outlet property="image" destination="Raq-iV-0oj" id="krY-DF-cPT"/>
+                        <outlet property="name" destination="X4g-Af-nH3" id="gls-W0-IwH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="55" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
