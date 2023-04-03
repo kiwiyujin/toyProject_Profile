@@ -13,6 +13,7 @@ class ProfileViewController: UIViewController {
         setupView()
         setupImage()
         setupLabel()
+        print("Yujin")
     }
     
 //    override func viewDidAppear(_ animated: Bool) {

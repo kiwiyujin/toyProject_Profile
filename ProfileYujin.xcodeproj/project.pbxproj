@@ -16,6 +16,7 @@
 		6AE2C9AC29D3CD06007CFD99 /* ProfileYujinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE2C9AB29D3CD06007CFD99 /* ProfileYujinTests.swift */; };
 		6AE2C9B629D3CD06007CFD99 /* ProfileYujinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE2C9B529D3CD06007CFD99 /* ProfileYujinUITests.swift */; };
 		6AE2C9B829D3CD06007CFD99 /* ProfileYujinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE2C9B729D3CD06007CFD99 /* ProfileYujinUITestsLaunchTests.swift */; };
+		6AEC874029DB170400906242 /* testfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC873F29DB170400906242 /* testfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6AE2C9B129D3CD06007CFD99 /* ProfileYujinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileYujinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE2C9B529D3CD06007CFD99 /* ProfileYujinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileYujinUITests.swift; sourceTree = "<group>"; };
 		6AE2C9B729D3CD06007CFD99 /* ProfileYujinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileYujinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6AEC873F29DB170400906242 /* testfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				6AE2C99D29D3CD06007CFD99 /* Assets.xcassets */,
 				6AE2C99F29D3CD06007CFD99 /* LaunchScreen.storyboard */,
 				6AE2C9A229D3CD06007CFD99 /* Info.plist */,
+				6AEC873F29DB170400906242 /* testfile.swift */,
 			);
 			path = ProfileYujin;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A00383A29D3D53700678F7D /* ProfileViewController.swift in Sources */,
+				6AEC874029DB170400906242 /* testfile.swift in Sources */,
 				6AE2C99529D3CD05007CFD99 /* AppDelegate.swift in Sources */,
 				6AE2C99729D3CD05007CFD99 /* SceneDelegate.swift in Sources */,
 			);
